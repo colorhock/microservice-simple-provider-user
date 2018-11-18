@@ -22,7 +22,7 @@ public class UserController {
         userPoForSel.setId(id);
         Example<UserPo> userPoExample =  Example.of(userPoForSel);
         Optional<UserPo> findOne = userRepository.findOne(userPoExample);
-        return  findOne.get();
+        return  findOne.isPresent() == true ? findOne.get() : null;
     }
 
 }

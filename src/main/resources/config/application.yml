@@ -11,7 +11,7 @@ spring:
    #配置用户名
    username: root
    #配置密码
-   password: root
+   password: asd819819
    driverClassName : com.mysql.jdbc.Driver
 
  jpa:
@@ -24,6 +24,13 @@ spring:
 #      schema: classpath:schema.sql  #指定h2数据库建表脚本
 #      data: classpath:data.sql   #指定h2数据库的数据脚本
 
+info:
+  app:
+    name: @project.artifactId@
+    encoding: @project.build.sourceEncoding@
+    java:
+      source: @java.version@
+      target: @java.version@
 
 
 
