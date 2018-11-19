@@ -11,7 +11,7 @@ spring:
    #配置用户名
    username: root
    #配置密码
-   password: asd819819
+   password: root
    driverClassName : com.mysql.jdbc.Driver
 
  jpa:
