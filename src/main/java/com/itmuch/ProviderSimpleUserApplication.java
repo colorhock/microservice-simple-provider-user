@@ -4,9 +4,9 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class ProviderUserApplication {
+public class ProviderSimpleUserApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(ProviderUserApplication.class, args);
+		SpringApplication.run(ProviderSimpleUserApplication.class, args);
 	}
 }
